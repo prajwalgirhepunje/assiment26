@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log(parseStringToNumber("13")); 
+        function parseStringToNumber(inputString) {
+    switch (inputString) {
+        case "0":
+            return parseInt("0");
+        case "1":
+            return parseInt("1");
+        case "2":
+            return parseInt("2");
+        case "3":
+            return parseInt("3");
+        case "4":
+            return parseInt("4");
+        case "5":
+            return parseInt("5");
+        case "6":
+            return parseInt("6");
+        case "7":
+            return parseInt("7");
+        case "8":
+            return parseInt("8");
+        case "9":
+            return parseInt("9");
+        default:
+            return NaN; // Return NaN if inputString is not a valid number string
+    }
+}
+    </script>
+</body>
+</html>

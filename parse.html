@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    console.log(parseStringToNumber("six")); 
+    function parseStringToNumber(inputString) {
+        switch (inputString) {
+            case "one":
+                return parseInt("1");
+            case "two":
+                return parseInt("2");
+            case "three":
+                return parseInt("3");
+            case "four":
+                return parseInt("4");
+            case "five":
+                return parseInt("5");
+            
+            default:
+                return NaN; // Return NaN if inputString does not match any case
+        }
+    }
+    
+    </script>
+</body>
+</html>
